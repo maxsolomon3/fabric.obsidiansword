@@ -3,15 +3,15 @@
 	"id": "obsidiansword",
 	"version": "${version}",
 	"name": "Obsidian Sword",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "This mod adds an obisidian sword into minecraft version 1.21.1",
 	"authors": [
 		"Me!"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/maxsolomon3/fabric.obsidiansword"
 	},
-	"license": "CC0-1.0",
+	"license": "MIT",
 	"icon": "assets/obsidiansword/icon.png",
 	"environment": "*",
 	"entrypoints": {
@@ -20,6 +20,9 @@
 		],
 		"fabric-datagen": [
 			"net.max.obsidiansword.ObsidianSwordDataGenerator"
+		],
+		"client": [
+			"net.max.obsidiansword.ObsidianSwordClient"
 		]
 	},
 	"mixins": [
